@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1069596870756",
+    "project_id": "whistle-11f12",
+    "storage_bucket": "whistle-11f12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069596870756:android:1b727b6f1f4cb4caf87771",
+        "android_client_info": {
+          "package_name": "com.companyname.whistle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069596870756-timrgvcgptp82s9tagagskrvt3nhf769.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC72kgAktnl6l4dSbJJiikbj5vVQP-oLmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069596870756-timrgvcgptp82s9tagagskrvt3nhf769.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

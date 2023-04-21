@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+ 
+         <Toolbar
+             android:layout_width="match_parent"
+             android:layout_height="?android:attr/actionBarSize"
+             android:id="@+id/toolbar"
+             android:background="#00bf63">
+     
+
+     <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            
+
+            <ImageView
+                android:id="@+id/camera"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/camera"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WHISTLE"
+                android:textFontWeight="600"
+                android:textColor="#E6E6DC"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:id="@+id/messenger"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/messenger"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+       </Toolbar>  
+
+
+    <RelativeLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@android:color/darker_gray"
+        android:clickable="true"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:elevation="4dp">
+
+        <RelativeLayout
+            android:layout_width="240dp"
+            android:layout_height="36dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/roundedges"
+            android:backgroundTint="#E6E6DC">
+
+            <TextView
+                android:text="What's on your mind?"
+                android:fontFamily="serif"
+                android:textFontWeight="700"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/user"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:padding="4dp"/>
+
+        <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/picture"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"/>
+
+</LinearLayout>
