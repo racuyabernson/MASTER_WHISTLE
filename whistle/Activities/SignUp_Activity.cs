@@ -55,14 +55,14 @@ namespace whistle.Activities
         private void SIGNUP(object sender, EventArgs e)
         {
             //RESTRICTIONS
-            if (string.IsNullOrWhiteSpace(email.Text) ||
-            string.IsNullOrWhiteSpace(pass.Text) ||
-            string.IsNullOrWhiteSpace(fname.Text) ||
-            string.IsNullOrWhiteSpace(pass.Text)) 
-            {
-                Toast.MakeText(this, "Please fill in all fields.", ToastLength.Long).Show();
-                return;
-            }
+            //if (string.IsNullOrWhiteSpace(email.Text) ||
+            //string.IsNullOrWhiteSpace(pass.Text) ||
+            //string.IsNullOrWhiteSpace(fname.Text) ||
+            //string.IsNullOrWhiteSpace(pass.Text)) 
+            //{
+            //    Toast.MakeText(this, "Please fill in all fields.", ToastLength.Long).Show();
+            //    return;
+            //}
 
             //CREATES USER IN FIREBASE AUTHENTICATION
             authen.CreateUserWithEmailAndPassword(email.Text, pass.Text)

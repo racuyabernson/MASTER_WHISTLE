@@ -16,7 +16,7 @@ using whistle.AppDataHelper;
 
 namespace whistle.Activities
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = false)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class LoginActivity : Activity
     {
         EditText email, pass;

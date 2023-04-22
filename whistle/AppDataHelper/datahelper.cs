@@ -24,10 +24,10 @@ namespace whistle.AppDataHelper
             if (app == null)
             {
                 var options = new FirebaseOptions.Builder()
-                    .SetProjectId("whistle-11f12")
-                    .SetApplicationId("whistle-11f12")
-                    .SetApiKey("AIzaSyC72kgAktnl6l4dSbJJiikbj5vVQP-oLmk")
-                    .SetStorageBucket("whistle-11f12.appspot.com")
+                    .SetProjectId("proel4-act")
+                    .SetApplicationId("proel4-act")
+                    .SetApiKey("AIzaSyCINnA3nlLgn3np8g8G74Nd-LXbjMlXXnA")
+                    .SetStorageBucket("proel4-act.appspot.com")
                     .Build();
 
                 app = FirebaseApp.InitializeApp(Application.Context, options);
@@ -49,10 +49,10 @@ namespace whistle.AppDataHelper
             if (app == null)
             {
                 var options = new FirebaseOptions.Builder()
-                    .SetProjectId("whistle-11f12")
-                    .SetApplicationId("whistle-11f12")
-                    .SetApiKey("AIzaSyC72kgAktnl6l4dSbJJiikbj5vVQP-oLmk")
-                    .SetStorageBucket("whistle-11f12.appspot.com")
+                    .SetProjectId("proel4-act")
+                    .SetApplicationId("proel4-act")
+                    .SetApiKey("AIzaSyCINnA3nlLgn3np8g8G74Nd-LXbjMlXXnA")
+                    .SetStorageBucket("proel4-act.appspot.com")
                     .Build();
 
                 app = FirebaseApp.InitializeApp(Application.Context, options);
